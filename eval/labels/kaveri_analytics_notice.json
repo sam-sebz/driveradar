@@ -1,0 +1,29 @@
+{
+  "notice": "kaveri_analytics_notice.pdf",
+  "source": "synthetic",
+  "labelled_by": "hand-written from the notice text (not from extractor output)",
+  "roles": [
+    {
+      "company": "Kaveri Analytics Pvt. Ltd.",
+      "role": "Associate Software Engineer",
+      "location": "Chennai, Bengaluru",
+      "ctc_lpa_min": 6.5,
+      "ctc_lpa_max": 8.0,
+      "stipend_per_month": null,
+      "deadline": "2026-11-28T23:59:00+05:30",
+      "joining_date": "2027-07-01",
+      "bond_years": 2,
+      "bond_penalty_inr": 150000,
+      "min_cgpa": 7.0,
+      "min_ug_percent": null,
+      "min_percent_10th": 60,
+      "min_percent_12th": 60,
+      "max_active_backlogs": 0,
+      "eligible_branches": ["CSE", "IT", "ECE"],
+      "eligible_batch": [2026],
+      "required_skills": ["Java", "Python", "SQL", "Data Structures", "Git"],
+      "selection_process": ["Online Assessment", "Technical Interview", "HR Interview"],
+      "notes": "Students who already hold an offer above 10 LPA are not eligible."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "notice": "vaigai_fintech_heldout.docx",
+  "source": "synthetic-heldout",
+  "labelled_by": "hand-written from the notice text; extractor rules were not tuned on this notice",
+  "label_notes": "joining_date is null because the notice gives only a month (never guess a day). Branch list includes MCA.",
+  "roles": [
+    {
+      "company": "Vaigai Fintech Solutions",
+      "role": "Software Development Engineer - I",
+      "location": "Coimbatore / Remote",
+      "ctc_lpa_min": 9.5,
+      "ctc_lpa_max": 9.5,
+      "stipend_per_month": null,
+      "deadline": "2026-11-30T10:00:00+05:30",
+      "joining_date": null,
+      "bond_years": 2,
+      "bond_penalty_inr": 200000,
+      "min_cgpa": 6.5,
+      "min_ug_percent": 65,
+      "min_percent_10th": 75,
+      "min_percent_12th": 75,
+      "max_active_backlogs": 0,
+      "eligible_branches": ["CSE", "IT", "ECE", "MCA"],
+      "eligible_batch": [2026],
+      "required_skills": ["Data Structures", "Object-Oriented Programming", "Java", "C++", "Python", "SQL", "REST API"],
+      "selection_process": ["Coding test (HackerRank)", "2 technical rounds", "HR"],
+      "notes": null
+    }
+  ]
+}

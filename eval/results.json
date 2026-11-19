@@ -1,0 +1,113 @@
+{
+  "summary": {
+    "provider_requested": "mock",
+    "providers_used": {
+      "mock": 6
+    },
+    "notices": 4,
+    "roles": 6,
+    "sources": [
+      "synthetic",
+      "synthetic-heldout"
+    ],
+    "field_accuracy": 0.9737,
+    "exact_match_rate": 0.8333,
+    "per_field_accuracy": {
+      "company": 1.0,
+      "role": 0.8333,
+      "location": 1.0,
+      "ctc_lpa_min": 1.0,
+      "ctc_lpa_max": 1.0,
+      "stipend_per_month": 1.0,
+      "deadline": 1.0,
+      "joining_date": 1.0,
+      "bond_years": 1.0,
+      "bond_penalty_inr": 1.0,
+      "min_cgpa": 1.0,
+      "min_ug_percent": 1.0,
+      "min_percent_10th": 1.0,
+      "min_percent_12th": 1.0,
+      "max_active_backlogs": 0.8333,
+      "eligible_branches": 1.0,
+      "eligible_batch": 1.0,
+      "required_skills": 1.0,
+      "selection_process": 0.8333
+    },
+    "by_source": {
+      "synthetic": {
+        "roles": 5,
+        "field_accuracy": 1.0,
+        "fields": "95/95",
+        "exact_match_rate": 1.0,
+        "exact": "5/5"
+      },
+      "synthetic-heldout": {
+        "roles": 1,
+        "field_accuracy": 0.8421,
+        "fields": "16/19",
+        "exact_match_rate": 0.0,
+        "exact": "0/1"
+      }
+    },
+    "seconds": 0.89,
+    "run_at": "2026-11-19T04:30:41+00:00"
+  },
+  "details": [
+    {
+      "notice": "kaveri_analytics_notice.pdf",
+      "source": "synthetic",
+      "role_index": 0,
+      "errors": []
+    },
+    {
+      "notice": "nilgiri_cloudworks_notice.docx",
+      "source": "synthetic",
+      "role_index": 0,
+      "errors": []
+    },
+    {
+      "notice": "thamirabarani_systems_3roles.xlsx",
+      "source": "synthetic",
+      "role_index": 0,
+      "errors": []
+    },
+    {
+      "notice": "thamirabarani_systems_3roles.xlsx",
+      "source": "synthetic",
+      "role_index": 1,
+      "errors": []
+    },
+    {
+      "notice": "thamirabarani_systems_3roles.xlsx",
+      "source": "synthetic",
+      "role_index": 2,
+      "errors": []
+    },
+    {
+      "notice": "vaigai_fintech_heldout.docx",
+      "source": "synthetic-heldout",
+      "role_index": 0,
+      "errors": [
+        {
+          "field": "role",
+          "expected": "Software Development Engineer - I",
+          "got": null
+        },
+        {
+          "field": "max_active_backlogs",
+          "expected": 0,
+          "got": null
+        },
+        {
+          "field": "selection_process",
+          "expected": [
+            "Coding test (HackerRank)",
+            "2 technical rounds",
+            "HR"
+          ],
+          "got": null
+        }
+      ]
+    }
+  ]
+}

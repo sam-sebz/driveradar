@@ -11,7 +11,10 @@ export function renderApp(path = "/") {
   return render(
     <QueryClientProvider client={client}>
       <AuthProvider>
-        <MemoryRouter initialEntries={[path]}>
+        <MemoryRouter
+          initialEntries={[path]}
+          future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+        >
           <AppRoutes />
         </MemoryRouter>
       </AuthProvider>

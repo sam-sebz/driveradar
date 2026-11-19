@@ -1,0 +1,29 @@
+{
+  "notice": "nilgiri_cloudworks_notice.docx",
+  "source": "synthetic",
+  "labelled_by": "hand-written from the notice text (not from extractor output)",
+  "roles": [
+    {
+      "company": "Nilgiri Cloudworks LLP",
+      "role": "Cloud Engineer Intern (with PPO)",
+      "location": "Hyderabad (Hybrid)",
+      "ctc_lpa_min": 12,
+      "ctc_lpa_max": 12,
+      "stipend_per_month": 30000,
+      "deadline": "2026-12-02T17:00:00+05:30",
+      "joining_date": null,
+      "bond_years": 0,
+      "bond_penalty_inr": null,
+      "min_cgpa": 7.5,
+      "min_ug_percent": null,
+      "min_percent_10th": 70,
+      "min_percent_12th": 70,
+      "max_active_backlogs": 1,
+      "eligible_branches": ["Computer Science or equivalent"],
+      "eligible_batch": [2026, 2027],
+      "required_skills": ["AWS", "Linux", "Docker", "Kubernetes", "Python", "Computer Networks"],
+      "selection_process": ["Online Test", "Group Discussion", "Technical Interview", "HR Interview"],
+      "notes": null
+    }
+  ]
+}
