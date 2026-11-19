@@ -118,6 +118,8 @@ def test_backlogs(line: str, expected: int) -> None:
         ("Eligible: CSE-AIML, CSE-DS", ["CSE-AIML", "CSE-DS"]),
         ("Degree: B.E. Computer Science and Engineering", ["CSE"]),
         ("Open to circuit branches", ["CIRCUIT"]),
+        # Found during manual UI testing: "Eligibility:" was not seen as a branch line.
+        ("Eligibility: CSE, IT", ["CSE", "IT"]),
     ],
 )
 def test_branches(line: str, expected: list[str]) -> None:

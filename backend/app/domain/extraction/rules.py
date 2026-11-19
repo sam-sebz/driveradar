@@ -331,7 +331,7 @@ def extract_branches(lines: list[str], catalog: BranchCatalog | None = None) -> 
     patterns = _BRANCH_PATTERNS.setdefault(id(cat), _branch_patterns(cat))
     for line in lines:
         if not re.search(
-            r"branch|stream|discipline|degree|course|eligible|b\.?\s?tech|\bb\.?e\b", line, re.I
+            r"branch|stream|discipline|degree|course|eligib|b\.?\s?tech|\bb\.?e\b", line, re.I
         ):
             continue
         spans: list[tuple[int, int, str]] = []

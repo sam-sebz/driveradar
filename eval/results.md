@@ -13,8 +13,8 @@ Reproduce: `cd backend && python ../eval/run_eval.py` (or `make eval`)
 | Notices / roles | 4 / 6 |
 | Field accuracy (19 scored fields per role) | 97.4% |
 | Exact-match rate (every scored field right) | 83.3% |
-| Run time | 0.89 s |
-| Run at (UTC) | 2026-11-19T04:30:41+00:00 |
+| Run time | 0.93 s |
+| Run at (UTC) | 2026-11-19T04:36:47+00:00 |
 
 ## By source
 

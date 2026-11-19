@@ -194,8 +194,8 @@ def evaluate(
     rules = [
         _check_minimum("cgpa", "CGPA", req.min_cgpa, student.cgpa),
         _check_ug_percent(req.min_ug_percent, student.cgpa, cgpa_to_percent_factor),
-        _check_minimum("pct_10", "Class X %", req.min_percent_10th, student.pct_10, "%"),
-        _check_minimum("pct_12", "Class XII %", req.min_percent_12th, student.pct_12, "%"),
+        _check_minimum("pct_10", "Class X", req.min_percent_10th, student.pct_10, "%"),
+        _check_minimum("pct_12", "Class XII", req.min_percent_12th, student.pct_12, "%"),
         _check_backlogs(req.max_active_backlogs, student.backlogs),
         _check_branch(req.eligible_branches, student.branch, catalog),
         _check_batch(req.eligible_batch, student.batch),

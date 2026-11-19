@@ -42,12 +42,16 @@ export function AnalyticsPage() {
           <p className="text-sm text-slate-500">No skills extracted yet.</p>
         )}
         {skills.data && skills.data.top_skills.length > 0 && (
-          <div className="h-96" data-testid="skills-chart">
+          <div
+            data-testid="skills-chart"
+            // One row per skill so every label fits (up to 20 skills).
+            style={{ height: Math.max(240, skills.data.top_skills.length * 30) }}
+          >
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={skills.data.top_skills} layout="vertical" margin={{ left: 40 }}>
                 <CartesianGrid strokeDasharray="3 3" horizontal={false} />
                 <XAxis type="number" allowDecimals={false} />
-                <YAxis type="category" dataKey="skill" width={140} />
+                <YAxis type="category" dataKey="skill" width={140} interval={0} />
                 <Tooltip />
                 <Bar dataKey="count" fill="#4f46e5" name="Drives" />
               </BarChart>
