@@ -1,0 +1,84 @@
+# Command: cd backend && python -m pytest --cov=app --cov-report=term-missing && python -m coverage report --include='app/domain/*'
+# Run at: 2026-11-19T04:37:45Z  (Python 3.10.11, SQLite in-memory test DB)
+
+---------- coverage: platform win32, python 3.10.11-final-0 ----------
+Name                                     Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------
+app\api\deps.py                             41      0   100%
+app\api\routes\analytics.py                 12      0   100%
+app\api\routes\auth.py                      21      0   100%
+app\api\routes\drives.py                    35      0   100%
+app\api\routes\health.py                    15      2    87%   17-18
+app\api\routes\profile.py                   12      0   100%
+app\core\config.py                          34      1    97%   54
+app\core\errors.py                          49      2    96%   83-84
+app\core\logging.py                         40      1    98%   33
+app\core\rate_limit.py                      27      0   100%
+app\core\security.py                        42      5    88%   23-24, 65, 68-69
+app\db\base.py                               3      0   100%
+app\db\session.py                           22      1    95%   20
+app\db\types.py                             26      2    92%   29, 38
+app\domain\eligibility\branches.py          50      0   100%
+app\domain\eligibility\engine.py           113      1    99%   103
+app\domain\extraction\base.py                8      0   100%
+app\domain\extraction\llm_extractor.py      37      0   100%
+app\domain\extraction\models.py             57      0   100%
+app\domain\extraction\postprocess.py        21      0   100%
+app\domain\extraction\rules.py             270      6    98%   128-129, 152-153, 172, 197
+app\domain\llm\anthropic_client.py          24      0   100%
+app\domain\llm\client.py                     5      0   100%
+app\domain\llm\http_clients.py              51      1    98%   107
+app\domain\parsing\documents.py            138      4    97%   134, 140, 158, 163
+app\domain\roles.py                         10      0   100%
+app\domain\skills\catalog.py                58      2    97%   26, 71
+app\domain\skills\detector.py               36      0   100%
+app\domain\skills\matcher.py                17      0   100%
+app\main.py                                 25      0   100%
+app\models\__init__.py                       5      0   100%
+app\models\drive.py                         39      0   100%
+app\models\refresh_token.py                 14      0   100%
+app\models\user.py                          23      0   100%
+app\models\user_drive.py                    22      0   100%
+app\repositories\drive_repo.py              39      0   100%
+app\repositories\token_repo.py              17      0   100%
+app\repositories\user_repo.py               16      0   100%
+app\schemas\analytics.py                    17      0   100%
+app\schemas\auth.py                         24      1    96%   13
+app\schemas\drive.py                        32      0   100%
+app\schemas\profile.py                      30      1    97%   20
+app\seed.py                                 56     13    77%   81-92, 96
+app\services\analytics_service.py           27      1    96%   18
+app\services\auth_service.py                71      1    99%   95
+app\services\drive_service.py              152     10    93%   56, 92, 99-101, 105, 108-109, 159, 163
+app\services\extractor_factory.py           28      0   100%
+app\services\profile_service.py             21      0   100%
+app\services\storage.py                     20      2    90%   19, 27
+----------------------------------------------------------------------
+TOTAL                                     1952     57    97%
+
+14 empty files skipped.
+
+187 passed in 24.68s
+
+## Core logic package only (app/domain)
+Name                                     Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------
+app\domain\eligibility\branches.py          50      0   100%
+app\domain\eligibility\engine.py           113      1    99%   103
+app\domain\extraction\base.py                8      0   100%
+app\domain\extraction\llm_extractor.py      37      0   100%
+app\domain\extraction\models.py             57      0   100%
+app\domain\extraction\postprocess.py        21      0   100%
+app\domain\extraction\rules.py             270      6    98%   128-129, 152-153, 172, 197
+app\domain\llm\anthropic_client.py          24      0   100%
+app\domain\llm\client.py                     5      0   100%
+app\domain\llm\http_clients.py              51      1    98%   107
+app\domain\parsing\documents.py            138      4    97%   134, 140, 158, 163
+app\domain\roles.py                         10      0   100%
+app\domain\skills\catalog.py                58      2    97%   26, 71
+app\domain\skills\detector.py               36      0   100%
+app\domain\skills\matcher.py                17      0   100%
+----------------------------------------------------------------------
+TOTAL                                      895     14    98%
+
+6 empty files skipped.
