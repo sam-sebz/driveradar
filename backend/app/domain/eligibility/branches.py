@@ -13,7 +13,7 @@ ANY = "ANY"
 
 def _key(value: str) -> str:
     value = value.lower().replace("&", " and ")
-    value = re.sub(r"[.20132014]", " ", value)
+    value = re.sub("[.\u2013\u2014]", " ", value)  # dots, en dash, em dash
     return re.sub(r"\s+", " ", value).strip(" ,;:")
 
 
