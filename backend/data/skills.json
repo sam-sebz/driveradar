@@ -1,0 +1,2256 @@
+[
+ {
+  "name": "Python",
+  "aliases": [
+   "python3"
+  ],
+  "normalise_only": [
+   "py"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Java",
+  "aliases": [
+   "core java",
+   "java se",
+   "j2se"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "JavaScript",
+  "aliases": [
+   "js",
+   "ecmascript",
+   "es6",
+   "vanilla js"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "TypeScript",
+  "aliases": [],
+  "normalise_only": [
+   "ts"
+  ],
+  "strict": false
+ },
+ {
+  "name": "C",
+  "aliases": [
+   "c language",
+   "c programming",
+   "ansi c"
+  ],
+  "normalise_only": [],
+  "strict": true
+ },
+ {
+  "name": "C++",
+  "aliases": [
+   "cpp",
+   "c plus plus"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "C#",
+  "aliases": [
+   "c sharp",
+   "csharp"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Go",
+  "aliases": [
+   "golang",
+   "go lang",
+   "go language"
+  ],
+  "normalise_only": [],
+  "strict": true
+ },
+ {
+  "name": "Rust",
+  "aliases": [
+   "rust lang"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Kotlin",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Swift",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Objective-C",
+  "aliases": [
+   "objective c",
+   "objc"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Ruby",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "PHP",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Scala",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "R",
+  "aliases": [
+   "r programming",
+   "r language"
+  ],
+  "normalise_only": [],
+  "strict": true
+ },
+ {
+  "name": "MATLAB",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Perl",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Dart",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Haskell",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Elixir",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Erlang",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Clojure",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Lua",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Julia",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Groovy",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Shell Scripting",
+  "aliases": [
+   "shell script",
+   "shell scripts",
+   "unix shell scripting"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Bash",
+  "aliases": [
+   "bash scripting"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "PowerShell",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SQL",
+  "aliases": [
+   "structured query language"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "PL/SQL",
+  "aliases": [
+   "plsql",
+   "pl-sql"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "T-SQL",
+  "aliases": [
+   "tsql",
+   "transact-sql"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Assembly Language",
+  "aliases": [
+   "asm"
+  ],
+  "normalise_only": [
+   "assembly"
+  ],
+  "strict": false
+ },
+ {
+  "name": "COBOL",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Fortran",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Solidity",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "VBA",
+  "aliases": [
+   "visual basic for applications"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "F#",
+  "aliases": [
+   "f sharp"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "HTML",
+  "aliases": [
+   "html5"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "CSS",
+  "aliases": [
+   "css3"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Sass",
+  "aliases": [
+   "scss"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Tailwind CSS",
+  "aliases": [
+   "tailwind",
+   "tailwindcss"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Bootstrap",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "React",
+  "aliases": [
+   "reactjs",
+   "react.js",
+   "react js"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Angular",
+  "aliases": [
+   "angularjs",
+   "angular.js",
+   "angular 2+"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Vue.js",
+  "aliases": [
+   "vue",
+   "vuejs",
+   "vue js"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Svelte",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Next.js",
+  "aliases": [
+   "nextjs",
+   "next js"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Nuxt.js",
+  "aliases": [
+   "nuxt",
+   "nuxtjs"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Redux",
+  "aliases": [
+   "redux toolkit"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "jQuery",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Webpack",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Vite",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Babel",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Material UI",
+  "aliases": [
+   "mui"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "GraphQL",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "REST API",
+  "aliases": [
+   "restful",
+   "rest apis",
+   "restful api",
+   "restful apis"
+  ],
+  "normalise_only": [
+   "rest"
+  ],
+  "strict": false
+ },
+ {
+  "name": "WebSockets",
+  "aliases": [
+   "websocket"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Three.js",
+  "aliases": [
+   "threejs"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "D3.js",
+  "aliases": [
+   "d3",
+   "d3js"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Gatsby",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Ember.js",
+  "aliases": [
+   "ember"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Responsive Design",
+  "aliases": [
+   "responsive web design"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Web Accessibility",
+  "aliases": [
+   "wcag",
+   "a11y"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Node.js",
+  "aliases": [
+   "nodejs",
+   "node js"
+  ],
+  "normalise_only": [
+   "node"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Express.js",
+  "aliases": [
+   "expressjs"
+  ],
+  "normalise_only": [
+   "express"
+  ],
+  "strict": false
+ },
+ {
+  "name": "NestJS",
+  "aliases": [
+   "nest.js"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Django",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Flask",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "FastAPI",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Spring",
+  "aliases": [
+   "spring framework",
+   "spring mvc"
+  ],
+  "normalise_only": [],
+  "strict": true
+ },
+ {
+  "name": "Spring Boot",
+  "aliases": [
+   "springboot"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Hibernate",
+  "aliases": [
+   "jpa"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "ASP.NET",
+  "aliases": [
+   "asp.net core",
+   "asp net"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": ".NET",
+  "aliases": [
+   "dotnet",
+   "dot net",
+   ".net core",
+   ".net framework"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Ruby on Rails",
+  "aliases": [
+   "rails",
+   "ror"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Laravel",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "gRPC",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Microservices",
+  "aliases": [
+   "microservice",
+   "microservices architecture"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "RabbitMQ",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Apache Kafka",
+  "aliases": [
+   "kafka"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Celery",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Redis",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Nginx",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Apache HTTP Server",
+  "aliases": [
+   "apache httpd"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "OAuth",
+  "aliases": [
+   "oauth2",
+   "oauth 2.0"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "JWT",
+  "aliases": [
+   "json web token",
+   "json web tokens"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Socket.IO",
+  "aliases": [
+   "socketio"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Struts",
+  "aliases": [
+   "apache struts"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "JSP",
+  "aliases": [
+   "java server pages"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Servlets",
+  "aliases": [
+   "java servlets",
+   "servlet"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "JDBC",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Maven",
+  "aliases": [
+   "apache maven"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Gradle",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "MySQL",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "PostgreSQL",
+  "aliases": [
+   "postgres",
+   "postgre",
+   "psql"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Oracle Database",
+  "aliases": [
+   "oracle db",
+   "oracle sql"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Microsoft SQL Server",
+  "aliases": [
+   "sql server",
+   "mssql",
+   "ms sql"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SQLite",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "MongoDB",
+  "aliases": [
+   "mongo"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Cassandra",
+  "aliases": [
+   "apache cassandra"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "DynamoDB",
+  "aliases": [
+   "amazon dynamodb"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Firebase",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Elasticsearch",
+  "aliases": [
+   "elastic search"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Neo4j",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "MariaDB",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "CouchDB",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "HBase",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Snowflake",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "BigQuery",
+  "aliases": [
+   "google bigquery"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Amazon Redshift",
+  "aliases": [
+   "redshift"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "DBMS",
+  "aliases": [
+   "rdbms",
+   "database management systems",
+   "database management system"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "NoSQL",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Database Design",
+  "aliases": [
+   "data modelling",
+   "data modeling"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "AWS",
+  "aliases": [
+   "amazon web services"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Microsoft Azure",
+  "aliases": [
+   "azure"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Google Cloud Platform",
+  "aliases": [
+   "gcp",
+   "google cloud"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Docker",
+  "aliases": [
+   "containerization"
+  ],
+  "normalise_only": [
+   "containers"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Kubernetes",
+  "aliases": [
+   "k8s"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Terraform",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Ansible",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Jenkins",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "GitHub Actions",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "GitLab CI",
+  "aliases": [
+   "gitlab ci/cd"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "CI/CD",
+  "aliases": [
+   "ci cd",
+   "continuous integration",
+   "continuous deployment"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Linux",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Unix",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Git",
+  "aliases": [
+   "version control"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "GitHub",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Bitbucket",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Helm",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Prometheus",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Grafana",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "ELK Stack",
+  "aliases": [
+   "elk",
+   "logstash",
+   "kibana"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Serverless",
+  "aliases": [
+   "serverless computing"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "AWS Lambda",
+  "aliases": [],
+  "normalise_only": [
+   "lambda"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Amazon EC2",
+  "aliases": [
+   "ec2"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Amazon S3",
+  "aliases": [
+   "s3"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "CloudFormation",
+  "aliases": [
+   "aws cloudformation"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "OpenShift",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Puppet",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Chef",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Vagrant",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "DevOps",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Site Reliability Engineering",
+  "aliases": [
+   "sre"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Computer Networks",
+  "aliases": [
+   "networking",
+   "computer networking"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "TCP/IP",
+  "aliases": [
+   "tcp ip"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "DNS",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Load Balancing",
+  "aliases": [
+   "load balancer"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Cloud Computing",
+  "aliases": [],
+  "normalise_only": [
+   "cloud"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Machine Learning",
+  "aliases": [],
+  "normalise_only": [
+   "ml"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Deep Learning",
+  "aliases": [],
+  "normalise_only": [
+   "dl"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Data Science",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Data Analysis",
+  "aliases": [
+   "data analytics"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Data Visualization",
+  "aliases": [
+   "data visualisation"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Statistics",
+  "aliases": [
+   "statistical analysis"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "NumPy",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Pandas",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "scikit-learn",
+  "aliases": [
+   "sklearn",
+   "scikit learn"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "TensorFlow",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "PyTorch",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Keras",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "OpenCV",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Natural Language Processing",
+  "aliases": [
+   "nlp"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Computer Vision",
+  "aliases": [],
+  "normalise_only": [
+   "cv"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Generative AI",
+  "aliases": [
+   "genai",
+   "gen ai"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Large Language Models",
+  "aliases": [
+   "llm",
+   "llms"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Prompt Engineering",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "LangChain",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Hugging Face",
+  "aliases": [
+   "huggingface"
+  ],
+  "normalise_only": [
+   "transformers"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Matplotlib",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Seaborn",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Plotly",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Tableau",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Power BI",
+  "aliases": [
+   "powerbi"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Microsoft Excel",
+  "aliases": [
+   "excel",
+   "ms excel",
+   "advanced excel"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Apache Spark",
+  "aliases": [
+   "spark",
+   "pyspark"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Hadoop",
+  "aliases": [
+   "apache hadoop"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Apache Hive",
+  "aliases": [],
+  "normalise_only": [
+   "hive"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Apache Airflow",
+  "aliases": [
+   "airflow"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "ETL",
+  "aliases": [
+   "extract transform load"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Data Warehousing",
+  "aliases": [
+   "data warehouse"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Data Engineering",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Big Data",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "MLOps",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Reinforcement Learning",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Time Series Analysis",
+  "aliases": [
+   "time series"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "A/B Testing",
+  "aliases": [
+   "ab testing"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Jupyter",
+  "aliases": [
+   "jupyter notebook"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "XGBoost",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Databricks",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Looker",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SAS",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SPSS",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Feature Engineering",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Artificial Intelligence",
+  "aliases": [],
+  "normalise_only": [
+   "ai"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Data Structures",
+  "aliases": [
+   "dsa",
+   "data structure",
+   "data structures and algorithms"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Algorithms",
+  "aliases": [
+   "algorithm",
+   "algorithm design"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Object-Oriented Programming",
+  "aliases": [
+   "oop",
+   "oops",
+   "object oriented programming"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Operating Systems",
+  "aliases": [
+   "operating system"
+  ],
+  "normalise_only": [
+   "os"
+  ],
+  "strict": false
+ },
+ {
+  "name": "System Design",
+  "aliases": [
+   "low level design",
+   "high level design"
+  ],
+  "normalise_only": [
+   "hld",
+   "lld"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Design Patterns",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Competitive Programming",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Problem Solving",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Distributed Systems",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Multithreading",
+  "aliases": [
+   "concurrency",
+   "multi-threading"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Compiler Design",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Discrete Mathematics",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Computer Architecture",
+  "aliases": [
+   "computer organization"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Unit Testing",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Selenium",
+  "aliases": [
+   "selenium webdriver"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "JUnit",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "pytest",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Jest",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Cypress",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Playwright",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Mockito",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "TestNG",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Postman",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Manual Testing",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Automation Testing",
+  "aliases": [
+   "test automation"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Performance Testing",
+  "aliases": [
+   "load testing"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "JMeter",
+  "aliases": [
+   "apache jmeter"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Cucumber",
+  "aliases": [
+   "bdd"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Appium",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "API Testing",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Test-Driven Development",
+  "aliases": [
+   "tdd"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Software Testing",
+  "aliases": [
+   "qa testing"
+  ],
+  "normalise_only": [
+   "testing"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Android",
+  "aliases": [
+   "android development"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "iOS",
+  "aliases": [
+   "ios development"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Flutter",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "React Native",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Xamarin",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Jetpack Compose",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SwiftUI",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Cyber Security",
+  "aliases": [
+   "cybersecurity",
+   "cyber-security"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Network Security",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Ethical Hacking",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Penetration Testing",
+  "aliases": [
+   "pentesting",
+   "pen testing"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Cryptography",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "OWASP",
+  "aliases": [
+   "owasp top 10"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Burp Suite",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Wireshark",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SIEM",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Information Security",
+  "aliases": [
+   "infosec"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Embedded Systems",
+  "aliases": [
+   "embedded c"
+  ],
+  "normalise_only": [
+   "embedded"
+  ],
+  "strict": false
+ },
+ {
+  "name": "IoT",
+  "aliases": [
+   "internet of things"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Arduino",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Raspberry Pi",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "VLSI",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Verilog",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "VHDL",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "RTOS",
+  "aliases": [
+   "real-time operating systems"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Microcontrollers",
+  "aliases": [
+   "microcontroller"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "PLC",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "AutoCAD",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SolidWorks",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Blockchain",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Ethereum",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Web3",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "AR/VR",
+  "aliases": [
+   "augmented reality",
+   "virtual reality"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Unity",
+  "aliases": [
+   "unity3d"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Unreal Engine",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Game Development",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SAP",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Salesforce",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "ServiceNow",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Mainframe",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Jira",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Confluence",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Agile",
+  "aliases": [
+   "agile methodology"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Scrum",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Kanban",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "SDLC",
+  "aliases": [
+   "software development life cycle"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "UML",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Figma",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Adobe XD",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Photoshop",
+  "aliases": [
+   "adobe photoshop"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "UI/UX Design",
+  "aliases": [
+   "ui/ux",
+   "ux design",
+   "ui design",
+   "ui ux"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Product Management",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Business Analysis",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Project Management",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Microsoft Office",
+  "aliases": [
+   "ms office"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Power Automate",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "RPA",
+  "aliases": [
+   "robotic process automation"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "UiPath",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Blue Prism",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Automation Anywhere",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Windows Server",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Active Directory",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "VMware",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Virtualization",
+  "aliases": [
+   "virtualisation"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "ITIL",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Web Development",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Full Stack Development",
+  "aliases": [
+   "full stack",
+   "full-stack",
+   "mern",
+   "mean stack"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Frontend Development",
+  "aliases": [
+   "front end",
+   "front-end",
+   "frontend"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Backend Development",
+  "aliases": [
+   "back end",
+   "back-end",
+   "backend"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Mobile App Development",
+  "aliases": [
+   "app development",
+   "mobile development"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "API Development",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Quality Assurance",
+  "aliases": [],
+  "normalise_only": [
+   "qa"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Technical Support",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Communication",
+  "aliases": [
+   "communication skills",
+   "verbal communication"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Teamwork",
+  "aliases": [
+   "team player"
+  ],
+  "normalise_only": [
+   "collaboration"
+  ],
+  "strict": false
+ },
+ {
+  "name": "Leadership",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Analytical Skills",
+  "aliases": [
+   "analytical thinking"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Aptitude",
+  "aliases": [
+   "quantitative aptitude",
+   "logical reasoning"
+  ],
+  "normalise_only": [],
+  "strict": false
+ },
+ {
+  "name": "Time Management",
+  "aliases": [],
+  "normalise_only": [],
+  "strict": false
+ }
+]

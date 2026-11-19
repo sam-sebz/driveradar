@@ -9,4 +9,4 @@ from sqlalchemy.dialects.postgresql import ARRAY, JSONB
 
 StrList = JSON().with_variant(ARRAY(Text), "postgresql")
 IntList = JSON().with_variant(ARRAY(Integer), "postgresql")
-JsonDoc = JSON().with_variant(JSONB(), "postgresql")
+JsonDoc = JSON().with_variant(JSONB, "postgresql")

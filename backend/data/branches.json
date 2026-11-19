@@ -1,0 +1,46 @@
+{
+  "branches": {
+    "CSE": ["cse", "cs", "computer science", "computer science and engineering", "computer science engineering", "computer engineering", "b.tech cse", "be cse", "cse core"],
+    "IT": ["it", "information technology", "b.tech it"],
+    "ECE": ["ece", "ec", "electronics and communication", "electronics and communication engineering", "electronics & communication", "electronics"],
+    "EEE": ["eee", "ee", "electrical and electronics", "electrical and electronics engineering", "electrical", "electrical engineering"],
+    "EIE": ["eie", "e&i", "electronics and instrumentation", "electronics and instrumentation engineering", "instrumentation"],
+    "MECH": ["mech", "me", "mechanical", "mechanical engineering"],
+    "CIVIL": ["civil", "ce", "civil engineering"],
+    "CHEM": ["chemical", "chemical engineering", "che"],
+    "BIOTECH": ["biotech", "bt", "biotechnology"],
+    "AERO": ["aero", "aerospace", "aeronautical", "aerospace engineering", "aeronautical engineering"],
+    "AUTO": ["auto", "automobile", "automobile engineering"],
+    "MCA": ["mca", "master of computer applications"],
+    "CSE-AIML": ["cse-aiml", "cse aiml", "cse (aiml)", "cse ai&ml", "cse with ai and ml", "cse with specialization in artificial intelligence and machine learning", "aiml"],
+    "CSE-DS": ["cse-ds", "cse ds", "cse (data science)", "cse with specialization in data science", "data science engineering"],
+    "CSE-IT": ["cse-it", "cse it", "cse (it)", "cse with specialization in information technology"],
+    "CSE-CS": ["cse-cs", "cse (cyber security)", "cse with specialization in cyber security", "cse cyber security"],
+    "CSE-CC": ["cse-cc", "cse (cloud computing)", "cse with specialization in cloud computing"],
+    "CSE-IOT": ["cse-iot", "cse (iot)", "cse with specialization in internet of things"],
+    "CSE-BDA": ["cse-bda", "cse (big data analytics)", "cse with specialization in big data analytics"]
+  },
+  "specialisation_of": {
+    "CSE-AIML": "CSE",
+    "CSE-DS": "CSE",
+    "CSE-IT": "CSE",
+    "CSE-CS": "CSE",
+    "CSE-CC": "CSE",
+    "CSE-IOT": "CSE",
+    "CSE-BDA": "CSE"
+  },
+  "groups": {
+    "ANY": {
+      "phrases": ["all branches", "any branch", "all streams", "any stream", "all disciplines", "any discipline", "all engineering branches", "open to all"],
+      "members": []
+    },
+    "CS_EQUIV": {
+      "phrases": ["computer science or equivalent", "cs or equivalent", "cse or equivalent", "cs/it and allied", "cse/it and allied", "cs/it or equivalent", "computer science or related"],
+      "members": ["CSE", "IT", "MCA", "CSE-AIML", "CSE-DS", "CSE-IT", "CSE-CS", "CSE-CC", "CSE-IOT", "CSE-BDA"]
+    },
+    "CIRCUIT": {
+      "phrases": ["circuit branches", "circuital branches", "circuit and allied branches"],
+      "members": ["CSE", "IT", "ECE", "EEE", "EIE", "CSE-AIML", "CSE-DS", "CSE-IT", "CSE-CS", "CSE-CC", "CSE-IOT", "CSE-BDA"]
+    }
+  }
+}
