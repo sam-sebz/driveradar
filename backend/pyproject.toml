@@ -1,0 +1,42 @@
+[project]
+name = "driveradar-backend"
+version = "0.1.0"
+description = "DriveRadar API: placement notice extraction, eligibility and skill match"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["alembic/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "S", "SIM", "RUF", "C4"]
+# UP017 (datetime.UTC) is skipped so the code also runs on 3.10 dev machines.
+# B008 is FastAPI's Depends()/File() default-argument idiom.
+ignore = ["UP017", "B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106", "S108"]
+"scripts/**" = ["S105", "S106"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+plugins = ["pydantic.mypy"]
+exclude = ["alembic/"]
+
+[[tool.mypy.overrides]]
+module = ["pdfplumber.*", "docx.*", "openpyxl.*", "fpdf.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning:pdfminer.*"]
+
+[tool.coverage.run]
+source = ["app"]
+
+[tool.coverage.report]
+show_missing = true
+skip_empty = true
